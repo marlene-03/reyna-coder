@@ -1,0 +1,106 @@
+
+/* index */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(228, 233, 223);
+    margin: 0%;
+}
+.home {
+    background-image: url("imagenes\home2.jpg");
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.barra-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu a {
+    padding: 15px;
+    color: rgb(40, 37, 40);
+}
+img {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+footer {
+    background-color: rgb(40, 37, 40);
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer ul {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 0%;
+}
+.estructura {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* wikiplantas */
+.hero {
+    text-align: center;
+    height: 200px;
+}
+h2 {
+    margin-left: 10px;
+}
+.carrusel-cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.tarjetas-wiki {
+    position: relative;
+    margin: 0px 10px 0px 10px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+}
+  
+.img-card {
+    padding: 0%;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(33, 33, 33, 80%);
+    color: white;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+.container h3 {
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+.container p {
+    padding-left: 15px;
+    margin-top: 5px;
+}
